@@ -1,0 +1,20 @@
+GitHub Project Link: https://github.com/JemishViradiya/PencilAssessment
+Download Project....
+
+How to run Project
+Step 1: open visual studio code
+Step 2: run (node index.js) command
+        Now, project will connect with database, will show message "Server running on 3000" and "We are connect with Mongoose"
+Step 3: Open broweser and write http://localhost:3000
+        It will store data from xslx file into databse
+Step 4: write http://localhost:3000/search/q  where q is your query param, the word you want to search from topic. 
+        It will shoe list of questions in response
+ 
+ Example:
+ 
+       http://localhost:3000/search/Red blood cells
+       Query param: Red blood cells
+       
+       Outpput: [25,31,34,56,133,147,158,168,186,188]
+       
+       The numebrs are question numbers
