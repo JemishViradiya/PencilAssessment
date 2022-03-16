@@ -18,3 +18,11 @@ Step 4: write http://localhost:3000/search/q  where q is your query param, the w
        Outpput: [25,31,34,56,133,147,158,168,186,188]
        
        The numebrs are question numbers
+
+
+
+How to Access Database
+Step 1: open MongoDB Compass
+Step 2: put connection string: mongodb+srv://root:root@cluster0.mncan.mongodb.net/PencilAssessment?retryWrites=true&w=majority
+Step 3: when you connect with database open PencilAssessment database
+Step 4: open topic or questions collections
