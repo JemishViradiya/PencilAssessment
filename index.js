@@ -21,8 +21,7 @@ dbconnection.once('open', function () {
 var storeDataController = require('./controller/storedatacontroller')
 
 app.get('/', storeDataController.SaveData)
-app.get('/search/:q', (req, res) => {
-})
+app.get('/search/:q', storeDataController.GetQuestionList)
 
 app.listen(port, () => {
     console.log(`App running on port ${port}`)
